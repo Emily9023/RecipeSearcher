@@ -1,2 +1,3 @@
 [build]
 command = "pip install -r requirements.txt && python backend/app.py"
+publish = "public"  # Replace with the actual path to your static files
