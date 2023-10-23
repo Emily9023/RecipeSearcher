@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Recipe Scraper",
+	"description": "A simple page-scraping extension for Chrome",
+	"version": "1.0",
+	"author": "@thomasforth",
+
+	"background": {
+		"scripts": ["popup.js"],
+		"persistent": true
+	},
+
+	"permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/",
+				"http://127.0.0.1:5000/"
+    ],
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html"
+	}
+}
