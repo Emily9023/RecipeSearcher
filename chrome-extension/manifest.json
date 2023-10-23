@@ -4,7 +4,7 @@
 	"name": "Recipe Scraper",
 	"description": "A simple page-scraping extension for Chrome",
 	"version": "1.0",
-	"author": "@thomasforth",
+	"author": "@emily9023",
 
 	"background": {
 		"scripts": ["popup.js"],
@@ -18,7 +18,9 @@
 				"http://127.0.0.1:5000/"
     ],
 	"browser_action": {
-		"default_icon": "logo.png",
+    "default_icon": {
+        "16": "public/chrome-extension/logo/logo.png"
+    },
 		"default_popup": "popup.html"
 	}
 }
